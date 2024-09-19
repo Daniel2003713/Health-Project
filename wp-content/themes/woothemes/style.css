@@ -1,3 +1,13 @@
+     /*
+     Theme Name: My Custom Theme
+     Theme URI: http://example.com/my-custom-theme
+     Author: Your Name
+     Author URI: http://example.com
+     Description: A custom theme for WooCommerce
+     Version: 1.0
+     */
+
+
 html {
     margin: 0 !important;
 }
@@ -15,7 +25,7 @@ body {
 }
 
 .header-logo img {
-    height: 45px;
+    height: 80px;
 }
 
 .jumbotron h1,

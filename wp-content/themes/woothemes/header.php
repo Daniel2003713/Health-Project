@@ -2,9 +2,8 @@
 
 <head>
     <?php wp_head(); ?>
-    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri() . '/js/jquery.js'; ?>">
     </script>
-    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri() . '/js/jquery-ui.min.js'; ?>">
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri() . '/js/bootstrap.min.js'; ?>">
     </script>
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri() . '/js/bootstrap.js'; ?>">
     </script>
