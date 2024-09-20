@@ -1,4 +1,12 @@
 <?php
+function customtheme_add_woocommerce_support()
+ {
+add_theme_support( 'woocommerce' );
+}
+add_action( 'after_setup_theme', 'customtheme_add_woocommerce_support' );
+
+
+
 // Theme setup function
 function mycustomtheme_setup() {
     add_theme_support('woocommerce');
@@ -43,7 +51,7 @@ function save_custom_product_field($product_id) {
 add_action('woocommerce_process_product_meta', 'save_custom_product_field');
 
 // Change the position of the price display
-remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 10);
+
 add_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 25);
 
 // Redirect to homepage if a specific product is not in the cart
